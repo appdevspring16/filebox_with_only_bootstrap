@@ -17,7 +17,21 @@ ul {
   clear:both;
 }
 
+.fa-dropbox {
+  font-size: 1.3em;
+}
 
+a:hover {
+  text-decoration: underline !important;
+}
+
+.navbar-brand:hover {
+  text-decoration: none !important;
+}
+
+.try-filebox-biz {
+  margin-top: 8px;
+}
 
 /* My standard vertical spacing classes */
 
