@@ -23,7 +23,7 @@ body {
 }
 
 .padding-inside-top-xl {
-  padding-top: 200px;
+  padding-top: 475px;
 }
 
 .padding-inside-bottom-xs {
@@ -80,4 +80,17 @@ body {
 
 .margin-below-bottom-xl {
   margin-bottom: 200px;
+}
+
+/* Brad additions */
+.margin-top {
+  padding-top: 20px;
+}
+.bottom-lists {
+  list-style: none;
+padding: 0;
+}
+
+.bottom-form {
+  text-align: center;
 }

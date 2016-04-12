@@ -9,8 +9,21 @@ html {
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
+
+.margin-top {
+  padding-top: 20px;
+}
+.bottom-lists {
+  list-style: none;
+padding: 0;
+}
 body {
   margin: 0;
+  padding-top: 60px;
+}
+
+.row.padding-inside-top {
+  padding-top: 150px
 }
 article,
 aside,
