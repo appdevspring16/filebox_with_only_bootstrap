@@ -4,6 +4,27 @@ body {
   font-family: "Open Sans";
 }
 
+.row  {
+  margin-right: -15px;
+  margin-left: -15px;
+  }
+
+
+.text-center{
+  text-align: center;
+}
+
+.primary-button {
+  width: 400px;
+}
+
+.h4-footer  {
+  color: rgb(0, 0, 0);
+  font-size: 8x;
+  font-weight: 400;
+  text-indent: 2em;
+}
+
 /* My standard vertical spacing classes */
 
 .padding-inside-top-xs {
