@@ -3,8 +3,20 @@
 body {
   font-family: "Open Sans";
 }
-
+div {border: thin red solid;}
 /* My standard vertical spacing classes */
+
+.nav-button {
+  border-radius: 5%;
+background: white;
+}
+
+.signup-button {
+  border-radius: 5%;
+  width: 200px;
+background-color: #337ab7
+}
+
 
 .padding-inside-top-xs {
   padding-top: 10px;
