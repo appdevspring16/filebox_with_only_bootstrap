@@ -4,9 +4,8 @@
 body { font-family: 'Open Sans', sans-serif;
 }
 
-h1, h2 {padding-left: 15px; padding-right: 15px}
+ul {padding-left: 0px;}
 
-ul {list-style: none; list-style-position: initial; padding-left: 0; margin-bottom: 0px;}
 
 
 /* My standard vertical spacing classes */
