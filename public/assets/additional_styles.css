@@ -81,3 +81,7 @@ body {
 .margin-below-bottom-xl {
   margin-bottom: 200px;
 }
+zero-padding{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
