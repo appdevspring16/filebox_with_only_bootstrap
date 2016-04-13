@@ -12,9 +12,14 @@ background: white;
 }
 
 .signup-button {
-  border-radius: 5%;
-  width: 200px;
+  border-radius: 10%;
+  width: 300px;
+
 background-color: #337ab7
+}
+.input-space {
+  border-radius: 10%;
+  width: 300px;
 }
 
 
