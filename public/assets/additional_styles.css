@@ -1,8 +1,12 @@
 /* Additional styles */
+/*border: thin red solid*/
 
-body {
-  font-family: "Open Sans";
+body { font-family: 'Open Sans', sans-serif;
 }
+
+ul {padding-left: 0px;}
+
+
 
 /* My standard vertical spacing classes */
 
