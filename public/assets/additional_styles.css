@@ -4,6 +4,10 @@ body {
   font-family: "Open Sans";
 }
 
+.footer {
+  margin-right: 15px;
+  margin-left: 15px;
+}
 
 /* My standard vertical spacing classes */
 
