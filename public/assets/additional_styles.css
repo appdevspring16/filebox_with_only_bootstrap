@@ -4,6 +4,20 @@ body {
   font-family: "Open Sans";
 }
 
+.footer {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.row {
+  display: block;
+}
+
+
+h1,  h2,  h3, {
+margin-top: 20px;
+margin-bottom: 10px;
+}
 /* My standard vertical spacing classes */
 
 .padding-inside-top-xs {
