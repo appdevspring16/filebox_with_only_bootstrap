@@ -33,15 +33,9 @@
 
     <!-- navigation row -->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container col-sm-offset-1">
+      <div class="container col-sm-offset-1 margin-adj">
         <div class="navbar-header page-scroll
-        col-sm-4">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
+        col-sm-4" >
         <a class="navbar-brand page-scroll" href="#page-top">      <i class="fa fa-dropbox" aria-hidden="true"> FileBox</i></a>
       </div>
 
@@ -50,16 +44,14 @@
 
       </div>
 
-      <div class="col-sm-offset-3 col-sm-2">
+      <div class="col-sm-offset-2 col-sm-2 pad-adj" align="right" >
         <p>
           Download the app
         </p>
       </div>
-      <div class="col-sm-2">
-
-          <a class="page-scroll" href="">Sign In</a>
-
-        <button type="button" name="button">
+      <div class="col-sm-3 pad-adj2">
+        Sign In
+        <button class="nav-button" type="button" name="button">
           Try Filebox Business
         </button>
       </div>
@@ -67,60 +59,46 @@
     </div>
     <!-- /.container -->
   </nav>
-  <div class="row margin-below-bottom-sm">
+
+
+  <!-- hero row -->
+  <div class="row">
+    <div class="col-sm-offset-1 col-sm-10">
+      <img src="assets/images/hero.png" alt="" />
+    </div>
+  </div>
+
+  <!-- works pic row -->
+  <div class="row margin-above-top-sm margin-below-bottom-sm">
     <div class="col-sm-offset-1 col-sm-4">
-
-      <i class="fa fa-dropbox" aria-hidden="true"> FileBox</i>
-
+      <h2>Filebox works the way you do</h2>
+      <p>
+        Get to all your files from anywhere, on any device, and share them with anyone.
+      </p>
     </div>
-    <div class="col-sm-3" align="right">
-
-      Download the app</div>
-      <div class="col-sm-3">
-        Sign in
-
-      </div>
-
-    </div>
-
-    <!-- hero row -->
-    <div class="row">
-      <div class="col-sm-offset-1 col-sm-10">
-        <img src="assets/images/hero.png" alt="" />
-      </div>
-    </div>
-
-    <!-- works pic row -->
-    <div class="row margin-above-top-sm margin-below-bottom-sm">
-      <div class="col-sm-offset-1 col-sm-4">
-        <h2>Filebox works the way you do</h2>
-        <p>
-          Get to all your files from anywhere, on any device, and share them with anyone.
-        </p>
-      </div>
-      <div class="col-sm-offset-2 col-sm-4">
-        <p >
-          <input type="text" name="name" value="Full Name" class="input-space">
-        </p>
-        <p>
-          <input type="text" name="name" value="Email" class="input-space">
-        </p>
-        <p>
-          <input type="text" name="name" value="Password" class="input-space">
-        </p>
-        <p>
-          <input type="checkbox" name="name" value="">
-          I agree to <a href="#">FileBox Terms</a>
-        </p>
-        <p>
-          <input type="submit" name="name" value="Sign up for free" class="signup-button padding-inside-bottom-sm">
-        </p>
-        <p>
-      <button type="submit" class="signup-button">    <i class="fa fa-fw fa-google"></i> Sign up free with Google</button>
-        </p>
-      </form>
+    <div class="col-sm-offset-2 col-sm-4">
+      <p >
+        <input type="text" name="name" value="Full Name" class="input-space">
+      </p>
+      <p>
+        <input type="text" name="name" value="Email" class="input-space">
+      </p>
+      <p>
+        <input type="text" name="name" value="Password" class="input-space">
+      </p>
+      <p>
+        <input type="checkbox" name="name" value="">
+        I agree to <a href="#">FileBox Terms</a>
+      </p>
+      <p class="padding-inside-bottom-sm">
+        <input type="submit" name="name" value="Sign up for free" class="signup-button">
+      </p>
+      <p>
+        <button type="submit" class="signup-button">    <i class="fa fa-fw fa-google"></i> Sign up free with Google</button>
+      </p>
     </form>
   </form>
+</form>
 </div>
 </div>
 
@@ -206,8 +184,8 @@
       <input type="checkbox" name="name" value="">
       I agree to <a href="#">Filebox Terms</a>
     </p>
-    <p><input type="button" name="name" value="Sign up for Free" class="signup-button"></p>
-  <button type="submit" class="signup-button">    <i class="fa fa-fw fa-google"></i> Sign up free with Google</button>
+    <p class="padding-inside-bottom-sm"><input type="button" name="name" value="Sign up for Free" class="signup-button"></p>
+    <button type="submit" class="signup-button">    <i class="fa fa-fw fa-google"></i> Sign up free with Google</button>
   </div>
 
 </div>
@@ -216,9 +194,9 @@
 <div class="row margin-above-top-sm margin-below-bottom-sm">
   <div class="col-sm-2">
     <th>
-      Filebox
+      <h4>Filebox</h4>
     </th>
-    <ul>
+    <ul class="list-unstyled">
       <li>Destop app</li>
       <li>Mobile apps</li>
       <li>Plans</li>
@@ -227,9 +205,9 @@
   </div>
   <div class="col-sm-2">
     <th>
-      Company
+      <h4>Company</h4>
     </th>
-    <ul>
+    <ul class="list-unstyled">
       <li>About us</li>
       <li>Jobs</li>
       <li>Press</li>
@@ -238,9 +216,9 @@
   </div>
   <div class="col-sm-2">
     <th>
-      Support
+      <h4>Support</h4>
     </th>
-    <ul>
+    <ul class="list-unstyled">
       <li>Help center</li>
       <li>Get started</li>
       <li>Contact</li>
@@ -249,9 +227,9 @@
   </div>
   <div class="col-sm-2">
     <th>
-      Community
+      <h4>Community</h4>
     </th>
-    <ul>
+    <ul class="list-unstyled">
       <li>Developers</li>
       <li>Referrals</li>
       <li>Forum</li>
@@ -259,9 +237,9 @@
   </div>
   <div class="col-sm-2">
     <th>
-      Connect
+      <h4>Connect</h4>
     </th>
-    <ul>
+    <ul class="list-unstyled">
       <li>Twitter</li>
       <li>Facebook</li>
       <li>Google+</li>
@@ -270,9 +248,9 @@
   </div>
   <div class="col-sm-2">
     <th>
-      Products
+      <h4>Products</h4>
     </th>
-    <ul>
+    <ul class="list-unstyled">
       <li>Pro</li>
       <li>Business</li>
       <li>Enterprise</li>
