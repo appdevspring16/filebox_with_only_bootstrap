@@ -3,9 +3,52 @@
 body {
   font-family: "Open Sans";
 }
+/*div {border: thin red solid;}*/
+
+
+
+.margin-adj {
+margin-left: 125px;}
+.pad-adj {padding-top: 15px;}
+.pad-adj2 {padding-top: 7px}
+.nav-button {
+  height: 36px;
+  width: auto;
+  border-radius: 5%;
+  background: white;
+}
+
+.signup-cell {align-content: center-block}
+.signup-button {
+  color: #fff;
+  border-radius: 10%;
+  width: 375px;
+  height: 36px;
+  background-color: #336699;
+  border-color: #2e6da4
+
+  }
+
+.signup-button:hover {
+  border-radius: 10%;
+  background-color: #337ab7;
+  border-color: #2e6da4}
+
+.input-space {
+  align: center;
+  border-radius: 10%;
+  width: 375px;
+  height: 30px;
+  padding: 0 0 0 10px;
+  color: #e0e0eb;
+}
+
+.center-row-mass {
+  display: block;
+  text-align: center;}
+
 
 /* My standard vertical spacing classes */
-
 .padding-inside-top-xs {
   padding-top: 10px;
 }
