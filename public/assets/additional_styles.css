@@ -1,5 +1,9 @@
 /* Additional styles */
 
+* {
+  /*border: thin blue solid;*/
+}
+
 body {
   font-family: "Open Sans";
 }
