@@ -2,8 +2,27 @@
 
 body {
   font-family: "Open Sans";
-}
 
+}
+.move-button {
+  vertical-align: bottom;
+}
+/*div {*/
+  /*border: thin red solid;*/
+/*}*/
+.image-format {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.list-style {
+  list-style: none;
+  padding-left: 0;
+}
+.list-item-style {
+  color: rgb(119,119,119);
+  margin-bottom: 10px;
+}
 /* My standard vertical spacing classes */
 
 .padding-inside-top-xs {
