@@ -9,6 +9,11 @@ html {
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
+
+.make-space {
+  padding-top: 1000px;
+}
+
 .padding-inside-top {
   padding-top: 150px;
 }
