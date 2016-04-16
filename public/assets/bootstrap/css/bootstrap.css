@@ -9,6 +9,36 @@ html {
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
+
+.make-space {
+  padding-top: 1000px;
+}
+
+.padding-inside-top {
+  padding-top: 150px;
+}
+
+.bottom-width {
+  padding-left: 500px;
+}
+.padding-bottom-big {
+  padding-bottom: 350px;
+}
+.padding-inside-bottom {
+  padding-bottom: 150px;
+  padding-top: -150px;
+}
+.center-heading {
+  text-align: center;
+}
+ .padding-top-small {
+   padding-top: 50px;
+ }
+ .hero-padding {
+   padding-bottom: 20px;
+   padding-top: 20px;
+ }
+
 body {
   margin: 0;
 }
@@ -6756,5 +6786,10 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+}
+.image-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 /*# sourceMappingURL=bootstrap.css.map */
