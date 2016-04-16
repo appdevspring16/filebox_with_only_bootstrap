@@ -29,22 +29,25 @@
 </head>
 <body>
   <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="row">
-      <div class="col-10-lg col-lg-offset-1">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">
-            <i class="fa fa-lg fa-fw fa-dropbox"></i>
-            Filebox
-          </a>
-        </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 col-lg-offset-1">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+              <i class="fa fa-lg fa-fw fa-dropbox"></i>
+              Filebox
+            </a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
               <li>
                 <p class="navbar-btn">
@@ -71,14 +74,15 @@
               </li>
             </ul>
           </div>
+        </div>
       </div>
     </div>
   </nav>
 
-  <div class="container margin-above-top-md margin-below-bottom-md">
+  <div class="container padding-inside-top-md padding-inside-bottom-md">
     <div class="row">
       <div class="col-md-offset-1 col-md-10">
-        <img src="assets/images/hero.png">
+        <img src="assets/images/hero.png" class="img-responsive">
       </div>
     </div>
     <div class="row">
@@ -88,7 +92,7 @@
           Get to all your files from anywhere, on any device, and share them with anyone.
         </p></div>
         <div class="col-md-offset-2 col-md-4">
-          <form>
+          <form class="margin-above-top-sm">
             <div class="form-group">
               <input type="text" class="form-control" name="full-name" id="exampleInputFullName"
               placeholder="Full name">
