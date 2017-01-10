@@ -1,7 +1,12 @@
 /* Additional styles */
+*{
 
+}
 body {
   font-family: "Open Sans";
+}
+.vertical-align-center{
+vertical-align: center;
 }
 
 /* My standard vertical spacing classes */
